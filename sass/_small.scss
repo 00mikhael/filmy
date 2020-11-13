@@ -1,0 +1,218 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    height: 100vh;
+    background-color: #eee;
+}
+
+
+/* Grid system */
+
+.row {
+    clear: both;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.limited {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    padding: 0 2vw;
+    margin: 0 0 .75rem 0;
+}
+
+.small-12 {
+    width: 100%;
+    text-align: center;
+}
+
+.small-6 {
+    width: 50%;
+    text-align: center;
+}
+
+
+/* Header Rules */
+
+header {
+    background-color: $primaryColor;
+}
+
+header img {
+    float: left;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#hamburgerBtn {
+    float: right;
+    background: none;
+    border: none;
+    color: #eee;
+    font-size: 1.5rem;
+    cursor: pointer;
+    height: 50px;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+nav {
+    background-color: $secondaryColor;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: .8rem 0;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li.active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul {
+    display: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+main {
+    min-height: 100%;
+    padding-top: 2rem;
+    background-color: white;
+}
+
+main h2 {
+    color: $secondaryColor;
+}
+
+main div div img {
+    width: 400;
+    height: auto;
+    border-radius: 4px;
+}
+
+.category-head {
+    float: left;
+    margin-left: 2vw;
+}
+
+.film-image,
+.film-title {
+    cursor: pointer;
+}
+
+.film-title:hover {
+    color: $secondaryColor;
+}
+
+#movie-name,
+#movie-genre-year {
+    margin: 0;
+}
+
+#movie-genre-year {
+    font-size: 14px;
+    color: rgb(139, 131, 131);
+    margin-top: .75vw;
+    margin-bottom: 2vw;
+}
+
+#movie-desc {
+    margin-bottom: 4vw;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#trailer-btn {
+    padding: 14px;
+    border-radius: 4px;
+    border: none;
+    color: #eee;
+    font-size: 12px;
+    background-color: $secondaryColor;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#trailer {
+    height: 300px;
+    width: 75%;
+    padding: 2vw;
+    border: none;
+    border-radius: 4px;
+}
+
+.detail {
+    text-align: center;
+}
+
+footer {
+    background-color: $primaryColor;
+    color: #eee;
+}
+
+footer div section ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer div section li {
+    list-style-type: none;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+footer div section li:hover {
+    color: $secondaryColor;
+}
+
+footer div section a {
+    padding: .8rem 0;
+    text-align: center;
+    text-decoration: none;
+}

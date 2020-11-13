@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Movie | Filmy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo2.ico">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="clearfix">
+        <div class="row limited">
+            <div class="column small-12">
+                <button id="hamburgerBtn">&#9776;</button>
+                <img id="logo" src="images/logo2.svg" width="50" height="50" alt="filmy logo">
+            </div>
+        </div>
+    </header>
+    <nav class="clearfix">
+        <div class="row limited">
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="latest.html">Latest</a></li>
+                <li><a href="popular.html">Popular</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="clearfix">
+
+        <div class="detail row limited">
+            <div class="detail-image column small-12 medium-6">
+                <img class="film-image" src="images/ww84.jpg" alt="" width="300" height="200">
+
+            </div>
+            <div class="detail-text column small-12 medium-6">
+                <h2 id="movie-name">Wonder Woman 1984</h2>
+                <p id="movie-genre-year">Action | Adventure | Drama | Fantasy | 2020</p>
+                <p id="movie-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#trailer" id="trailer-btn">Watch Trailer Now</a>
+            </div>
+
+        </div>
+
+
+        <div class="row limited">
+            <div class="small-12">
+                <iframe class="trailer-size" id="trailer" src="https://www.youtube.com/embed/01ON04GCwKs" title="" allowfullscreen width="800" height="450"></iframe>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="clearfix">
+        <div class="row limited">
+            <section class="column small-12 medium-6 large-3">
+                <h2>Location</h2>
+                <ul>
+                    <li>13 Araba Street, ilupeju</li>
+                    <li>Lagos Nigeria</li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>Category</h2>
+                <ul>
+                    <li>Hotest</li>
+                    <li>Popular</li>
+                    <li>Latest</li>
+                    <li>Support</li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>Social</h2>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>About Us</h2>
+                <img src="images/logo2.svg" height="50" width="50" alt="logo">
+                <p>&copy; 2020 &bull; all rights reserved.</p>
+            </section>
+        </div>
+        <!-- end row -->
+    </footer>
+    <script src="js/menuToggle.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/movie.js"></script>
+</body>
+
+</html>
