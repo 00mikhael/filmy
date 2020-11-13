@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    let home_url = "http://127.0.0.1:5500/Learning/Filmy%20v2/index.html";
-    let movie_url = "http://127.0.0.1:5500/Learning/Filmy%20v2/movie.html";
+    let home_url = "/index.html";
+    let movie_url = "/movie.html";
     let logo = document.querySelector("#logo");
     logo.addEventListener("click", function() {
         if (window.location.href !== home_url) {
